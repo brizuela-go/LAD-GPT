@@ -12,7 +12,7 @@ This is a PWA. Feel free to install it. To achieve this, [Workbox](https://devel
 
 If you wish to use a different image as the PWA icons, you'll need to run this command
 
-`bash
+`
 npx pwa-asset-generator <your-desired-image> icons 
 `
 
