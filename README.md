@@ -16,4 +16,4 @@ If you wish to use a different image for the PWA icons, you'll need to run this 
 npx pwa-asset-generator <your-desired-image> icons 
 ```
 
-Of course, you'll need to change the manifest.json as the next step. 
+Of course, you'll need to change the `manifest.json` as the next step. 
