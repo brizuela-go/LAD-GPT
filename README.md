@@ -1,4 +1,4 @@
-﻿# ChatGPT clone made with Vainilla JS and OPENAI API
+﻿# ChatGPT clone made with [Vite](https://vitejs.dev/) Vainilla JS and OPENAI API
 
 ## What is this?
 
