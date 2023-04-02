@@ -26,7 +26,7 @@ app.post("/", async (req, res) => {
     const prompt = req.body.prompt;
 
     const response = await openai.createCompletion({
-      model: "text-davinci-003",
+      model: "text-davinci-003", // gpt-3 model
       prompt: `${prompt}`,
       temperature: 0.4, // Higher values means the model will take more risks.
       max_tokens: 3000, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).
@@ -39,7 +39,7 @@ app.post("/", async (req, res) => {
       bot: response.data.choices[0].text,
     });
   } catch (error) {
-    console.error(error);
+    console.log("ERROR!")
     res.status(500).send(error || "Something went wrong");
   }
 });
